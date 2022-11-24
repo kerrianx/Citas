@@ -1,0 +1,33 @@
+.body{
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+ 
+  flex-wrap: wrap;
+   
+   
+}
+
+.formulario{
+   position: fixed;
+   top: 30%;
+  
+}
+
+.tarjeta{
+   width: 40%;
+   position: absolute;
+   left: 60%;
+   
+   
+
+}
+
+@media (max-width: 768px) {
+   .formulario{
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       height: auto;
+   }
+}
